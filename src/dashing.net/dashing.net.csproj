@@ -195,6 +195,7 @@
     <Content Include="Widgets\meter\meter.html" />
     <Content Include="Widgets\number\number.html" />
     <Content Include="Widgets\text\text.html" />
+    <Content Include="Widgets\trafficmap\trafficmap.html" />
     <None Include="Properties\PublishProfiles\MyDash - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\MyDash - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -232,6 +233,8 @@
     <Content Include="Widgets\text\text.coffee" />
     <Content Include="Widgets\text\text.scss" />
     <Content Include="Views\Error\Index.cshtml" />
+    <Content Include="Widgets\trafficmap\trafficmap.coffee" />
+    <Content Include="Widgets\trafficmap\trafficmap.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -248,9 +251,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\application.coffee" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Dashboard\Sampletv.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Dashboard\Sample.cshtml" />
