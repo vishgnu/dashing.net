@@ -11,7 +11,7 @@ namespace dashing.net.Controllers
     {
         public ActionResult Sampletv()
         {
-            return View("Sample");
+            return View();
         }
 
         public ActionResult Sample()

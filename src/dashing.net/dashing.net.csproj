@@ -21,7 +21,6 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <ApplicationInsightsResourceId>/subscriptions/fe3261b3-537b-4885-9e56-6aa66a28037a/resourcegroups/Default-Web-WestEurope/providers/microsoft.insights/components/MyDash</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,34 +60,6 @@
     </Reference>
     <Reference Include="Jurassic">
       <HintPath>..\packages\CoffeeSharp.0.5\lib\Jurassic.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.DependencyCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.Web, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.1.2.3\lib\net45\Microsoft.AI.Web.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.WindowsServer, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationInsights, Version=1.2.3.490, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.1.2.3\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Dynamic">
@@ -200,8 +171,6 @@
     <Content Include="Assets\fontawesome-webfont.svg" />
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\favicon.ico" />
-    <Content Include="Scripts\ai.0.15.0-build58334.js" />
-    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\batman.jquery.js" />
     <Content Include="Scripts\batman.js" />
     <Content Include="Scripts\d3.v2.min.js" />
@@ -227,7 +196,6 @@
     <Content Include="Widgets\number\number.html" />
     <Content Include="Widgets\text\text.html" />
     <Content Include="Widgets\trafficmap\trafficmap.html" />
-    <Content Include="ApplicationInsights.config" />
     <None Include="Properties\PublishProfiles\MyDash - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\MyDash - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -267,7 +235,6 @@
     <Content Include="Views\Error\Index.cshtml" />
     <Content Include="Widgets\trafficmap\trafficmap.coffee" />
     <Content Include="Widgets\trafficmap\trafficmap.scss" />
-    <Content Include="Service References\Application Insights\ConnectedService.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -307,9 +274,6 @@
       <Project>{e8e6f9c1-b3da-423f-bc5e-a00d97ee2589}</Project>
       <Name>dashing.net.streaming</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
