@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -194,6 +195,8 @@
     <Content Include="Widgets\meter\meter.html" />
     <Content Include="Widgets\number\number.html" />
     <Content Include="Widgets\text\text.html" />
+    <None Include="Properties\PublishProfiles\MyDash - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\MyDash - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\es5-shim.js" />
     <Content Include="Scripts\es5-shim.min.js" />
