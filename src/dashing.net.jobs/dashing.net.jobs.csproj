@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buzzwords.cs" />
+    <Compile Include="Models\ServerStateModel.cs" />
+    <Compile Include="ServerStatus.cs" />
     <Compile Include="Convergence.cs" />
     <Compile Include="Forecast.cs" />
     <Compile Include="Karma.cs" />

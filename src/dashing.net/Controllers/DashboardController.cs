@@ -9,9 +9,9 @@ namespace dashing.net.Controllers
 {
     public class DashboardController : Controller
     {
-        public ActionResult Sampletv()
+        public ActionResult Frame()
         {
-            return View();
+            return View("IFrameDash");
         }
 
         public ActionResult Sample()

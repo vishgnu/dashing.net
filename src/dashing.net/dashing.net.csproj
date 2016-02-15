@@ -196,6 +196,7 @@
     <Content Include="Widgets\list\list.html" />
     <Content Include="Widgets\meter\meter.html" />
     <Content Include="Widgets\number\number.html" />
+    <Content Include="Widgets\server_status\server_status.html" />
     <Content Include="Widgets\text\text.html" />
     <Content Include="Widgets\trafficmap\trafficmap.html" />
     <None Include="Properties\PublishProfiles\MyDash - FTP.pubxml" />
@@ -239,6 +240,9 @@
     <Content Include="Widgets\trafficmap\trafficmap.scss" />
     <Content Include="Widgets\forecast\forecast.coffee" />
     <Content Include="Widgets\forecast\forecast.scss" />
+    <Content Include="Widgets\server_status\server_status.coffee" />
+    <Content Include="Widgets\server_status\server_status.scss" />
+    <Content Include="Views\Dashboard\IFrameDash.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
